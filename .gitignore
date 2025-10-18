@@ -1,0 +1,40 @@
+# -------------------- #
+# Rust Build Artifacts #
+# -------------------- #
+
+# Ignore the target directory in all subfolders and the root folder.
+# This directory contains ALL compiled binaries and intermediate files.
+**/target/
+
+# Ignore the top-level lock file. If each exercise is self-contained, 
+# you don't need a top-level dependency lock.
+Cargo.lock
+
+# -------------------------- #
+# Dependency Caching (Unlikely but safe) #
+# -------------------------- #
+
+# If any cache or generated file leaks out of target/
+.cargo/
+
+# -------------------------- #
+# OS and Editor Specific Files #
+# -------------------------- #
+
+# Visual Studio Code
+.vscode/
+
+# IntelliJ / CLion / RustRover
+.idea/
+*.iml
+
+# macOS Files
+.DS_Store
+
+# Windows Files
+Thumbs.db
+
+# Vim/Emacs/Nano/Others
+*~
+*.swp
+.#*

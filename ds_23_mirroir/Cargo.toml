@@ -1,0 +1,6 @@
+[package]
+name = "ds_23_mirroir"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
