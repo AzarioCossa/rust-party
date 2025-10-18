@@ -5,6 +5,8 @@
 # Ignore the target directory in all subfolders and the root folder.
 # This directory contains ALL compiled binaries and intermediate files.
 **/target/
+**/**.exe
+**/**.pdb
 
 # Ignore the top-level lock file. If each exercise is self-contained, 
 # you don't need a top-level dependency lock.
