@@ -1,0 +1,6 @@
+[package]
+name = "ds_24_to_int_or_not"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
