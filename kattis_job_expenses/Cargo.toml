@@ -1,0 +1,6 @@
+[package]
+name = "kattis_job_expenses"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
